@@ -81,7 +81,7 @@ void loop()
   {
     return;
   }
-  //Provjera sta he stiglo sa servera
+  //Provjera sta je stiglo sa servera to jest zadnje moze i bez ovoga
   client.print(readRequest);
   send_to_cloud(&client);
   delay(60000);    //Svaki minut salje MANJE VISE
