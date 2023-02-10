@@ -2,7 +2,7 @@
   const char* host = "api.thingspeak.com"; // 
   const int httpPort = 80; // 
   const String channelID   = "UNIJETI SVOJ"; 
-  const String writeApiKey = "UNIJETI SVOJ"; //INPUT YOUR OUN KEYS FROM A thinks network
+  const String writeApiKey = "UNIJETI SVOJ"; //INPUT YOUR OUN KEYS FROM A things network
   const String readApiKey = "Unijeti svoj ";
   int field1 = 0;
   const float BETA = 3950;   //BETA faktor za ntc otpornik 1 / (log(1 / (4096. / analogValue - 1)) / BETA + 1.0 / 298.15) - 273.15 //Iz dataSheata
