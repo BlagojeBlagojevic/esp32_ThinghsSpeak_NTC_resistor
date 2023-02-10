@@ -1,0 +1,2 @@
+# esp32_ThinghsSpeak_NTC_resistor
+This code is written in C++ for the ESP32 microcontroller platform, and it is used to send temperature data to the cloud platform Thingspeak. It connects to a WiFi network, reads the temperature from a NTC resistor, converts the analog reading to Celsius, and then sends the data to the Thingspeak server using a GET request. The function "send_to_cloud" is used to send data to the cloud and also receive any response from the server. The code also retrieves the latest temperature data from Thingspeak. 
