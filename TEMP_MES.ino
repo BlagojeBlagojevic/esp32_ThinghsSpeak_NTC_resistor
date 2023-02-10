@@ -6,7 +6,7 @@
   const String readApiKey = "Unijeti svoj ";
   int field1 = 0;
   const float BETA = 3950;   //BETA faktor za ntc otpornik 1 / (log(1 / (4096. / analogValue - 1)) / BETA + 1.0 / 298.15) - 273.15 //Iz dataSheata
-  int numberOfResults = 3; 
+  int numberOfResults = 3; //Koliko kupi sa cloud
   int fieldNumber = 1; 
   float celsius=20000.1;   //Celzius kao globalni ova vrijednost ako postoji greska
 static void setup_wifi()   //podesavanje WIFI
