@@ -28,7 +28,7 @@ void setup()
   // put your setup code here, to run once:
   Serial.begin(115200);
   setup_wifi();
-  analogReadResolution(12);   //Rezolucija 12 to jest 12 bit za predstavljanje promjena od jednog 3.3/4096.
+  analogReadResolution(12);   //Rezolucija 12 to jest 12 bit za predstavljanje promjena od jednog 3.3/4096 to jest STEP!!!!. 
   //setup_cloud();
 }
 static void send_to_cloud(WiFiClient *client)   //Slanje na cloud
